@@ -23,7 +23,7 @@ cf_cc_binary(
     deps = [
         "//cuttlefish/common/libs/fs",
         "//cuttlefish/common/libs/utils:environment",
-        "//cuttlefish/common/libs/utils:flag_parser",
+        "//cuttlefish/flag_parser",
         "//cuttlefish/common/libs/utils:gflags_xml_parser",
         "//cuttlefish/common/libs/utils:subprocess",
         "//cuttlefish/common/libs/utils:subprocess_managed_stdio",
